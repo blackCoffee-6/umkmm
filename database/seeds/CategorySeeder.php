@@ -31,13 +31,5 @@ class CategorySeeder extends Seeder
         Category::create([
             'name' => 'Men'
         ]);
-
-        Category::create([
-            'name' => 'Women'
-        ]);
-
-        Category::create([
-            'name' => 'Kids'
-        ]);
     }
 }
